@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5D88458BDDED435CB567F6C4 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3C0B1C899F88493E9F65A35A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				AFA56045C762462B8880F8F2 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		F86586D253D44F9E9B9048B4 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 68309AE18FB44DFEA0E5C6DA /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				1F665BF0AA134E85B9BD1E1D /* CMake Rules */,
+			);
+			dependencies = (
+				93B68E198B754988ACCBCAB1 /* PBXTargetDependency */,
+				3AA8B15312274C2894D7AF89 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0269BFF5F9D14B31B86097AB /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = 00BC9619F56349849FC0F494 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/vulkan.c */; };
+		0CC0CB752DA245F3B9BD9B5F /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/mappings.h */ = {isa = PBXBuildFile; fileRef = 3E8844DE4DEA48A98FE81FC4 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/mappings.h */; };
+		159C86EBCBA94DBAA8E00B05 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/egl_context.c */ = {isa = PBXBuildFile; fileRef = 948B484FE22B41D28DECE7EA /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/egl_context.c */; };
+		18B13A9CFE0643A98C3CD8EE /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/external/glfw/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = 29EB9FCAD3DF4A5B950E0A0E /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/external/glfw/src/glfw_config.h */; };
+		1B30AC5110E84527BE50AA99 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = B4460BEF31ED424290A01C8F /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_window.m */; };
+		21CE25102BCE458B96996E69 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/input.c */ = {isa = PBXBuildFile; fileRef = AD69CB44062D4A559C054B7C /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/input.c */; };
+		24AE93B5E21E41CAB9857A92 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = 0FA723D955AD466B84EAB486 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_platform.h */; };
+		337D21A80F4947838BEBD056 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = 8E202A17AFBE4F0584F8425F /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_joystick.h */; };
+		415F53CA3710482186043580 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = F36A35F9D1044C5595FB05B6 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/nsgl_context.h */; };
+		483A76AF5C8D4CD9AFBA1C5D /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A011C98E3FFE4224BDA68747 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/CMakeLists.txt */; };
+		56A1F0F9028543BBAB5D63F1 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/context.c */ = {isa = PBXBuildFile; fileRef = 1F7B752FCA794AD886286C61 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/context.c */; };
+		578FBD8C3F7444F0BFD9ACDD /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/egl_context.h */ = {isa = PBXBuildFile; fileRef = B851578CCC7E4DABA7BBD9BD /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/egl_context.h */; };
+		5AD40EE5E81244878D2B2342 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/osmesa_context.c */ = {isa = PBXBuildFile; fileRef = A50092962F984441AF4B33BD /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/osmesa_context.c */; };
+		5CADBED3CF0C411EB9825942 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = 30F514CA7E6F407C9001C3D3 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_monitor.m */; };
+		62D1E1F8BA914F2FB5EA0C59 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = C82B30F112A04B2EA15806AD /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/nsgl_context.m */; };
+		649A7353B2A54B5F999F897A /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/osmesa_context.h */ = {isa = PBXBuildFile; fileRef = 95C5E098374143949533E3DA /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/osmesa_context.h */; };
+		65F7F69F43464002B99BE4E7 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = 117EBB7E293E4194B95B0C02 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/include/GLFW/glfw3.h */; };
+		6662080CE05B48BD9C0E82C4 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = DDAF45405D824364BD54D839 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/include/GLFW/glfw3native.h */; };
+		69EF0373990A4EF9900C46C9 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/monitor.c */ = {isa = PBXBuildFile; fileRef = 06508102C2D5420CA8F60411 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/monitor.c */; };
+		76D1F14F0E494C2682D7912E /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = CEEFFBADE8A54FDBAB229A7D /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_time.c */; };
+		78420EAD527A4552995199C3 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/internal.h */ = {isa = PBXBuildFile; fileRef = 875C79B2303B4B46A32B951B /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/internal.h */; };
+		7B83D1B5E6E74718A7E7331C /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/window.c */ = {isa = PBXBuildFile; fileRef = 06757629D0D34C5FB9291503 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/window.c */; };
+		99C6A541C5644D7EB325B8FD /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/posix_thread.h */ = {isa = PBXBuildFile; fileRef = DA8BD99536424E7B94A9B673 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/posix_thread.h */; };
+		B3FEC7EAFBAF49D98DB89DE1 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = 0C581F743E0B4E729D3C3030 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_joystick.m */; };
+		EAB79729376247C1B634484A /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/posix_thread.c */ = {isa = PBXBuildFile; fileRef = 90C0E17C1399482CAFD1A7F7 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/posix_thread.c */; };
+		F9C30F60894D42089080EB6E /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/init.c */ = {isa = PBXBuildFile; fileRef = 283B481CC8DA4B93B2FDF1C9 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/init.c */; };
+		F9FCC9670C344A25B5A5AC5B /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = A570DA5D685B42DFA45FF128 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_init.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0E8B594F21EB4FE8A9192E69 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		4412055208044E2DA60E0AA8 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		930D07E306154AD398B4CBBE /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		B9195FFB90C141F5B6745028 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		7FAADCB8361F451C89997250 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 632064D8482440DCBBA65734 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D88458BDDED435CB567F6C4;
+			remoteInfo = ZERO_CHECK;
+		};
+		8B480967AB6D410C98C7EA01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 632064D8482440DCBBA65734 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FDE1AB39EE14203A7DD937D;
+			remoteInfo = glfw;
+		};
+		978C0BFE1DB74E4D91FDD171 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 632064D8482440DCBBA65734 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D88458BDDED435CB567F6C4;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00BC9619F56349849FC0F494 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = src/vulkan.c; sourceTree = SOURCE_ROOT; };
+		06508102C2D5420CA8F60411 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
+		06757629D0D34C5FB9291503 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
+		0C581F743E0B4E729D3C3030 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
+		0FA723D955AD466B84EAB486 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		117EBB7E293E4194B95B0C02 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		1F7B752FCA794AD886286C61 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
+		283B481CC8DA4B93B2FDF1C9 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
+		29EB9FCAD3DF4A5B950E0A0E /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/external/glfw/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = ../../build/external/glfw/src/glfw_config.h; sourceTree = SOURCE_ROOT; };
+		30F514CA7E6F407C9001C3D3 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		3E8844DE4DEA48A98FE81FC4 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/mappings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mappings.h; path = src/mappings.h; sourceTree = SOURCE_ROOT; };
+		62091BA8E01E458B95FA12F6 /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		875C79B2303B4B46A32B951B /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
+		8E202A17AFBE4F0584F8425F /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
+		90C0E17C1399482CAFD1A7F7 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/posix_thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_thread.c; path = src/posix_thread.c; sourceTree = SOURCE_ROOT; };
+		948B484FE22B41D28DECE7EA /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/egl_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = egl_context.c; path = src/egl_context.c; sourceTree = SOURCE_ROOT; };
+		95C5E098374143949533E3DA /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/osmesa_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = osmesa_context.h; path = src/osmesa_context.h; sourceTree = SOURCE_ROOT; };
+		A011C98E3FFE4224BDA68747 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A50092962F984441AF4B33BD /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/osmesa_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = osmesa_context.c; path = src/osmesa_context.c; sourceTree = SOURCE_ROOT; };
+		A570DA5D685B42DFA45FF128 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		AD69CB44062D4A559C054B7C /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
+		B4460BEF31ED424290A01C8F /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		B851578CCC7E4DABA7BBD9BD /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/egl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egl_context.h; path = src/egl_context.h; sourceTree = SOURCE_ROOT; };
+		C82B30F112A04B2EA15806AD /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		CA727AE9BDC847B9BE983E17 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CEEFFBADE8A54FDBAB229A7D /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
+		DA8BD99536424E7B94A9B673 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/posix_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_thread.h; path = src/posix_thread.h; sourceTree = SOURCE_ROOT; };
+		DDAF45405D824364BD54D839 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		F36A35F9D1044C5595FB05B6 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		00AD67D2016D470784E31E77 = {
+			isa = PBXGroup;
+			children = (
+				6F374F48CD9041938B53596C /* ALL_BUILD */,
+				E37E3AD9D6F4451EBEBBD5E6 /* GLFW3 */,
+				95E9344C59084DDEA18839CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F374F48CD9041938B53596C /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				C6367A1BD5B947FA97F2E5C0 /* CMake Rules */,
+				CA727AE9BDC847B9BE983E17 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		95E9344C59084DDEA18839CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62091BA8E01E458B95FA12F6 /* glfw */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCEF2D8F9A1A477F86DC9E26 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				29EB9FCAD3DF4A5B950E0A0E /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/external/glfw/src/glfw_config.h */,
+				117EBB7E293E4194B95B0C02 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/include/GLFW/glfw3.h */,
+				DDAF45405D824364BD54D839 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/include/GLFW/glfw3native.h */,
+				8E202A17AFBE4F0584F8425F /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_joystick.h */,
+				0FA723D955AD466B84EAB486 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_platform.h */,
+				B851578CCC7E4DABA7BBD9BD /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/egl_context.h */,
+				875C79B2303B4B46A32B951B /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/internal.h */,
+				3E8844DE4DEA48A98FE81FC4 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/mappings.h */,
+				F36A35F9D1044C5595FB05B6 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/nsgl_context.h */,
+				95C5E098374143949533E3DA /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/osmesa_context.h */,
+				DA8BD99536424E7B94A9B673 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/posix_thread.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		C6367A1BD5B947FA97F2E5C0 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D2B973C2F688401294084ABD /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				DFA617D0D77C48708A7FE3A1 /* Source Files */,
+				BCEF2D8F9A1A477F86DC9E26 /* Header Files */,
+				A011C98E3FFE4224BDA68747 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		DFA617D0D77C48708A7FE3A1 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A570DA5D685B42DFA45FF128 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_init.m */,
+				0C581F743E0B4E729D3C3030 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_joystick.m */,
+				30F514CA7E6F407C9001C3D3 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_monitor.m */,
+				CEEFFBADE8A54FDBAB229A7D /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_time.c */,
+				B4460BEF31ED424290A01C8F /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_window.m */,
+				1F7B752FCA794AD886286C61 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/context.c */,
+				948B484FE22B41D28DECE7EA /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/egl_context.c */,
+				283B481CC8DA4B93B2FDF1C9 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/init.c */,
+				AD69CB44062D4A559C054B7C /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/input.c */,
+				06508102C2D5420CA8F60411 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/monitor.c */,
+				C82B30F112A04B2EA15806AD /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/nsgl_context.m */,
+				A50092962F984441AF4B33BD /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/osmesa_context.c */,
+				90C0E17C1399482CAFD1A7F7 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/posix_thread.c */,
+				00BC9619F56349849FC0F494 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/vulkan.c */,
+				06757629D0D34C5FB9291503 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E37E3AD9D6F4451EBEBBD5E6 /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				D2B973C2F688401294084ABD /* glfw */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FDE1AB39EE14203A7DD937D /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68861225F2794F648512DDEE /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				1CFFE6B8B85347D3B06E6378 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A047211B98F742E78597722D /* PBXTargetDependency */,
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = 62091BA8E01E458B95FA12F6 /* glfw */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		632064D8482440DCBBA65734 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = EE6D24C63A804FA9B0674335 /* Build configuration list for PBXProject "GLFW" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				4412055208044E2DA60E0AA8 /* Debug */,
+				930D07E306154AD398B4CBBE /* Release */,
+				0E8B594F21EB4FE8A9192E69 /* MinSizeRel */,
+				B9195FFB90C141F5B6745028 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 00AD67D2016D470784E31E77;
+			projectDirPath = ../../../external/glfw;
+			projectRoot = "";
+			targets = (
+				F86586D253D44F9E9B9048B4 /* ALL_BUILD */,
+				5D88458BDDED435CB567F6C4 /* ZERO_CHECK */,
+				1FDE1AB39EE14203A7DD937D /* glfw */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F665BF0AA134E85B9BD1E1D /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/external/glfw -f /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/external/glfw/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		2E4510A0A4C349E29AA2EEA0 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		AFA56045C762462B8880F8F2 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/external/glfw -f /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/external/glfw/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F4683F76D3784C2DA0405994 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CFFE6B8B85347D3B06E6378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9FCC9670C344A25B5A5AC5B /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_init.m */,
+				B3FEC7EAFBAF49D98DB89DE1 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_joystick.m */,
+				5CADBED3CF0C411EB9825942 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_monitor.m */,
+				76D1F14F0E494C2682D7912E /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_time.c */,
+				1B30AC5110E84527BE50AA99 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/cocoa_window.m */,
+				56A1F0F9028543BBAB5D63F1 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/context.c */,
+				159C86EBCBA94DBAA8E00B05 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/egl_context.c */,
+				F9C30F60894D42089080EB6E /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/init.c */,
+				21CE25102BCE458B96996E69 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/input.c */,
+				69EF0373990A4EF9900C46C9 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/monitor.c */,
+				62D1E1F8BA914F2FB5EA0C59 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/nsgl_context.m */,
+				5AD40EE5E81244878D2B2342 /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/osmesa_context.c */,
+				EAB79729376247C1B634484A /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/posix_thread.c */,
+				0269BFF5F9D14B31B86097AB /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/vulkan.c */,
+				7B83D1B5E6E74718A7E7331C /* /Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src/window.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AA8B15312274C2894D7AF89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FDE1AB39EE14203A7DD937D /* glfw */;
+			targetProxy = 8B480967AB6D410C98C7EA01 /* PBXContainerItemProxy */;
+		};
+		93B68E198B754988ACCBCAB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D88458BDDED435CB567F6C4 /* ZERO_CHECK */;
+			targetProxy = 978C0BFE1DB74E4D91FDD171 /* PBXContainerItemProxy */;
+		};
+		A047211B98F742E78597722D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D88458BDDED435CB567F6C4 /* ZERO_CHECK */;
+			targetProxy = 7FAADCB8361F451C89997250 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05162B4D4FF8487388C29C1A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/external/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		0E93A21B75084B54819F38FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/external/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		11B0E97ADD0042FA88E4EC9C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/external/glfw/build";
+			};
+			name = RelWithDebInfo;
+		};
+		1847860490F74C0392C1303E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/include","/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src","/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/external/glfw/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/external/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1F6FF3CF16CA428A8BB382A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/external/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		33E69161855A482F872C98D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/external/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		554C4180CEAF4CEFBC0758E6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/include","/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src","/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/external/glfw/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/external/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		71943828B02E48BF97D207FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/external/glfw/build";
+			};
+			name = Debug;
+		};
+		925774D1751644E59FDDA764 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/external/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AB5DDED6BCB245098360A167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/include","/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src","/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/external/glfw/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/external/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B30B36EF94754439A0BC97F4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/external/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C0124CB4DA6A49F5B7E9BC22 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/external/glfw/build";
+			};
+			name = MinSizeRel;
+		};
+		C877FD461E494AB7BEAB03F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/external/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		DAD3685E33D442428981D6D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/include","/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/external/glfw/src","/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/external/glfw/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/external/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		E632F22ED66F42D5A7E4E946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/external/glfw/build";
+			};
+			name = Release;
+		};
+		F455515A92FF484683BFCEAD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/external/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C0B1C899F88493E9F65A35A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6FF3CF16CA428A8BB382A4 /* Debug */,
+				C877FD461E494AB7BEAB03F0 /* Release */,
+				F455515A92FF484683BFCEAD /* MinSizeRel */,
+				925774D1751644E59FDDA764 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		68309AE18FB44DFEA0E5C6DA /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E69161855A482F872C98D0 /* Debug */,
+				0E93A21B75084B54819F38FD /* Release */,
+				B30B36EF94754439A0BC97F4 /* MinSizeRel */,
+				05162B4D4FF8487388C29C1A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		68861225F2794F648512DDEE /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5DDED6BCB245098360A167 /* Debug */,
+				DAD3685E33D442428981D6D9 /* Release */,
+				1847860490F74C0392C1303E /* MinSizeRel */,
+				554C4180CEAF4CEFBC0758E6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EE6D24C63A804FA9B0674335 /* Build configuration list for PBXProject "GLFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71943828B02E48BF97D207FF /* Debug */,
+				E632F22ED66F42D5A7E4E946 /* Release */,
+				C0124CB4DA6A49F5B7E9BC22 /* MinSizeRel */,
+				11B0E97ADD0042FA88E4EC9C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 632064D8482440DCBBA65734 /* Project object */;
+}

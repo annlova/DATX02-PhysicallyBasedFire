@@ -1,0 +1,7 @@
+/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/CMakeFiles/glad.dir
+/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/CMakeFiles/FireSim.dir
+/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/CMakeFiles/ALL_BUILD.dir
+/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/CMakeFiles/ZERO_CHECK.dir
+/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/external/glfw/CMakeFiles/ALL_BUILD.dir
+/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/external/glfw/CMakeFiles/ZERO_CHECK.dir
+/Users/joakimwingard/Desktop/DATX02-PhysicallyBasedFire/FireSim/build/external/glfw/src/CMakeFiles/glfw.dir
